@@ -1,0 +1,103 @@
+.testimonials {
+  background: linear-gradient(135deg, rgba(1, 235, 63, 0.05) 0%, #0F0F0F 50%, rgba(117, 30, 235, 0.1) 100%);
+  padding: 80px 20px;
+}
+
+.testimonials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonials h2 {
+  font-size: 42px;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(135deg, var(--primary-green) 0%, var(--white) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.testimonial-card {
+  background: linear-gradient(135deg, rgba(117, 30, 235, 0.15) 0%, rgba(1, 235, 63, 0.08) 100%);
+  border: 1px solid var(--primary-purple);
+  border-radius: 12px;
+  padding: 30px;
+  transition: all 0.4s ease;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--primary-green);
+  box-shadow: 0 15px 40px rgba(1, 235, 63, 0.2);
+  background: linear-gradient(135deg, rgba(1, 235, 63, 0.15) 0%, rgba(117, 30, 235, 0.15) 100%);
+}
+
+.testimonial-stars {
+  font-size: 20px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.testimonial-text {
+  font-size: 15px;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.testimonial-author h4 {
+  font-size: 16px;
+  color: var(--primary-green);
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.testimonial-author p {
+  font-size: 13px;
+  color: var(--blue-accent);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 60px 15px;
+  }
+
+  .testimonials h2 {
+    font-size: 32px;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .testimonial-card {
+    padding: 25px;
+  }
+
+  .testimonial-text {
+    font-size: 14px;
+  }
+
+  .testimonial-author h4 {
+    font-size: 15px;
+  }
+
+  .testimonial-author p {
+    font-size: 12px;
+  }
+}

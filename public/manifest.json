@@ -1,0 +1,9 @@
+{
+  "name": "Agentforce Landing Page",
+  "author": "Tu Nombre",
+  "description": "Landing page profesional de venta del curso de Agentes de IA Agentforce",
+  "keywords": ["Agentforce", "Salesforce", "IA", "CRM", "Automatización"],
+  "theme_color": "#751EEB",
+  "background_color": "#0F0F0F",
+  "display": "standalone"
+}
