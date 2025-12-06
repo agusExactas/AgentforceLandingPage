@@ -5,7 +5,6 @@ import Features from './components/Features';
 import VideoSection from './components/VideoSection';
 import Benefits from './components/Benefits';
 import FAQ from './components/FAQ';
-import CTA from './components/CTA';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -16,11 +15,10 @@ function App() {
       <Hero />
       <Features />
       <Benefits />
+      <Benefits />
       <VideoSection />
       <FAQ />
-      <CTA />
       <Footer />
-    </div>
   );
 }
 
