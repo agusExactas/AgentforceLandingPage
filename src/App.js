@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import VideoSection from './components/VideoSection';
 import Benefits from './components/Benefits';
-import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
 import Header from './components/Header';
@@ -18,7 +17,6 @@ function App() {
       <Features />
       <Benefits />
       <VideoSection />
-      <Testimonials />
       <FAQ />
       <CTA />
       <Footer />

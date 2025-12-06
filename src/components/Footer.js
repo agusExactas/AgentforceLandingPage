@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h4>Agentforce Academy</h4>
+            <h4>Clases instruidas por Agustin Villa</h4>
             <p>Transformando profesionales en expertos de IA en Salesforce</p>
           </div>
           <div className="footer-section">
@@ -28,8 +28,6 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2025 Agentforce Academy. Todos los derechos reservados.</p>
-          <p>Hecho con ❤️ para transformadores digitales como tú</p>
         </div>
       </div>
     </footer>
