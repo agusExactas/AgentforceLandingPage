@@ -17,9 +17,6 @@ function Hero() {
           <span className="highlight">🎯 Resultados Inmediatos</span>
           <span className="highlight">📈 ROI Garantizado</span>
         </div>
-        <a href="#cta" className="cta-button">
-          Comenzar Ahora - Acceso Exclusivo
-        </a>
         <p className="hero-subtitle-small">
           Únete a cientos de profesionales que ya revolucionaron su flujo de trabajo
         </p>

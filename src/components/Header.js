@@ -14,7 +14,6 @@ function Header() {
           <a href="#video">Video</a>
           <a href="#faq">Preguntas</a>
         </nav>
-        <a href="#cta" className="nav-cta">Inscribirse Ahora</a>
       </div>
     </header>
   );
