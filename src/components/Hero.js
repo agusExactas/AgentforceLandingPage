@@ -17,6 +17,7 @@ function Hero() {
           <span className="highlight">🎯 Resultados Inmediatos</span>
           <span className="highlight">📈 ROI Garantizado</span>
         </div>
+        <img src="/flying-agentforce.png" alt="Agentforce" className="hero-image" />
         <p className="hero-subtitle-small">
           Únete a cientos de profesionales que ya revolucionaron su flujo de trabajo
         </p>
