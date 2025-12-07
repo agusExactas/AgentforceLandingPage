@@ -5,9 +5,9 @@ function VideoSection() {
   return (
     <section id="video" className="video-section">
       <div className="video-container">
-        <h2>Mira Cómo Funciona Agentforce</h2>
+        <h2>La Mejor Oportunidad en el Mercado para Aprender Agentforce</h2>
         <p className="video-subtitle">
-          Descubre en vivo la potencia de los agentes de IA transformando tareas en segundos
+          En este video te explico qué verás en el curso y qué lo hace distinto al aprendizaje a los golpes
         </p>
         <div className="video-wrapper">
           <div className="video-placeholder">
@@ -22,8 +22,8 @@ function VideoSection() {
             </video>
           </div>
           <div className="video-highlight">
-            <h3>✓ Demostración Práctica Completa</h3>
-            <p>Visualiza paso a paso cómo crear, configurar y desplegar un agente de IA en tu CRM Salesforce.</p>
+            <h3>✓ Aprende de Forma Estructurada</h3>
+            <p>Descubre por qué este curso es la mejor oportunidad para dominar Agentforce y cómo difiere del aprendizaje improvisado.</p>
           </div>
         </div>
       </div>
