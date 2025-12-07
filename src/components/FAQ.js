@@ -22,8 +22,8 @@ function FAQ() {
       answer: 'Sí. Tendrás acceso a nuestra comunidad de estudiantes, recursos actualizados regularmente y soporte dedicado.'
     },
     {
-      question: '¿Hay garantía de satisfacción?',
-      answer: 'Por supuesto. Si después de 30 días no estás satisfecho, te devolvemos el 100% de tu inversión, sin preguntas.'
+      question: '¿Se actualizará el curso conforme avance la tecnología?',
+      answer: 'Sí. El curso recibe actualizaciones continuas para reflejar los últimos cambios y características de Agentforce. Tu acceso de por vida incluye todas las actualizaciones.'
     },
     {
       question: '¿Recibiré certificación al completar el curso?',
