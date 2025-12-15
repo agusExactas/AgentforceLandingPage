@@ -58,6 +58,12 @@
   object-fit: cover;
 }
 
+.video-placeholder iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .video-highlight {
   padding: 30px;
   background: linear-gradient(135deg, rgba(1, 235, 63, 0.1) 0%, rgba(117, 30, 235, 0.1) 100%);

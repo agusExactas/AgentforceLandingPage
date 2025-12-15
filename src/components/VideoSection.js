@@ -9,26 +9,34 @@ function VideoSection() {
         <p className="video-subtitle">
           En este video te explico qué verás en el curso y qué lo hace distinto al aprendizaje a los golpes
         </p>
+
         <div className="video-wrapper">
           <div className="video-placeholder">
-            <video 
-              width="100%" 
-              height="100%" 
-              controls 
-              poster="https://via.placeholder.com/1280x720/751EEB/01EB3F?text=Agentforce+Demo"
-            >
-              <source src="/Anuncio Landing.mp4" type="video/mp4" />
-              Tu navegador no soporta el elemento de video. Por favor, actualiza tu navegador.
-            </video>
+            <div className="video-iframe-wrapper">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/BoZxUa-mlJ4"
+                title="Agentforce"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
           </div>
+
           <div className="video-highlight">
             <h3>✓ Aprende de Forma Estructurada</h3>
-            <p>Descubre por qué este curso es la mejor oportunidad para dominar Agentforce y cómo difiere del aprendizaje improvisado.</p>
+            <p>
+              Descubre por qué este curso es la mejor oportunidad para dominar Agentforce
+              y cómo difiere del aprendizaje improvisado.
+            </p>
           </div>
         </div>
       </div>
     </section>
   );
 }
+
 
 export default VideoSection;
