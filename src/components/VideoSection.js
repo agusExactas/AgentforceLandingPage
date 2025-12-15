@@ -17,7 +17,7 @@ function VideoSection() {
               controls 
               poster="https://via.placeholder.com/1280x720/751EEB/01EB3F?text=Agentforce+Demo"
             >
-              <source src="./Videos/Completo/Anuncio 1.mp4" type="video/mp4" />
+              <source src="/Anuncio Landing.mp4" type="video/mp4" />
               Tu navegador no soporta el elemento de video. Por favor, actualiza tu navegador.
             </video>
           </div>
